@@ -26,36 +26,35 @@ Este proyecto es una aplicación web sencilla para la gestión de un inventario 
 ## Pasos de Instalación
 Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 
-Clonar el repositorio:
+### Clonar el repositorio:
 
 ```bash
 git clone <https://github.com/KevinBuitragoJ/Vehicle_Inventory_Management.git>
 cd reto
 ```
-Instalar dependencias de Composer:
+###  Instalar dependencias de Composer:
 
 ```bash
 composer install
-Configurar el archivo .env:
-Copia el archivo de ejemplo y crea tu archivo de configuración de entorno:
 ```
-```bash
-cp .env.example .env
-Abre el archivo .env y configura tus credenciales de base de datos (DB_DATABASE, DB_USERNAME, DB_PASSWORD, etc.) y cualquier otra variable de entorno necesaria.
-```
-Generar la clave de la aplicación:
+
+### Configurar el archivo .env:
+
+Abre el archivo .env y configura tus credenciales de base de datos (DB_DATABASE, DB_USERNAME, DB_PASSWORD, etc.).
+
+### Generar la clave de la aplicación:
 
 ```bash
 php artisan key:generate
 ```
-Ejecutar las migraciones de la base de datos:
+### Ejecutar las migraciones de la base de datos:
 Esto creará las tablas necesarias en tu base de datos.
 
 ```bash
 php artisan migrate
 ```
 
-Instalar dependencias de Node.js:
+### Instalar dependencias de Node.js:
 
 ```bash
 npm install
@@ -67,7 +66,6 @@ npm install
 Una vez que todos los pasos de instalación estén completos, puedes iniciar el servidor de desarrollo de Laravel:
 
 ```bash
-
 php artisan serve
 ```
 

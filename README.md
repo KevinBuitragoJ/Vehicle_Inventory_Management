@@ -29,10 +29,8 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu entorno local:
 Clonar el repositorio:
 
 ```bash
-git clone <URL_DE_TU_REPOSITORIO>
-cd nombre-de-tu-proyecto-de-vehiculos
-(Reemplaza <URL_DE_TU_REPOSITORIO> con la URL real de tu repositorio Git)
-(Reemplaza nombre-de-tu-proyecto-de-vehiculos con el nombre de la carpeta de tu proyecto)
+git clone <https://github.com/KevinBuitragoJ/Vehicle_Inventory_Management.git>
+cd reto
 ```
 Instalar dependencias de Composer:
 

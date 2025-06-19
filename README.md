@@ -63,16 +63,6 @@ npm install
 # o si usas Yarn: yarn install
 ```
 
-Compilar los assets de frontend (CSS/JS):
-Para desarrollo (vigila cambios):
-
-```bash
-npm run dev
-``` 
-Para producción (optimizado):
-```bash
-# npm run build
-```
 ## Cómo Ejecutar el Proyecto
 Una vez que todos los pasos de instalación estén completos, puedes iniciar el servidor de desarrollo de Laravel:
 
@@ -80,12 +70,10 @@ Una vez que todos los pasos de instalación estén completos, puedes iniciar el 
 
 php artisan serve
 ```
-La aplicación estará disponible en tu navegador en la siguiente URL:
 
-[enlace sospechoso eliminado]
 
-Uso
-Navega a la URL http://127.0.0.1:8000/vehicles para ver la lista de vehículos registrados.
-Usa el botón "Registrar Nuevo Vehículo" para añadir nuevas entradas.
-Utiliza el desplegable y el campo de búsqueda para filtrar la lista de vehículos por marca, color o modelo.
-Los botones "Ver", "Editar" y "Eliminar" en la tabla te permitirán gestionar cada vehículo individualmente.
+## Uso
+ - Navega a la URL http://127.0.0.1:8000/vehicles para ver la lista de vehículos registrados.
+ - Usa el botón "Registrar Nuevo Vehículo" para añadir nuevas entradas.
+ - Utiliza el desplegable y el campo de búsqueda para filtrar la lista de vehículos por marca, color o modelo.
+ - Los botones "Ver", "Editar" y "Eliminar" en la tabla te permitirán gestionar cada vehículo individualmente.
